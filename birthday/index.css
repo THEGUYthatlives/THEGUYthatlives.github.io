@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #dates {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #dates > div {
+    margin: 0 10px;
+  }
+  
+  #date {
+    font-size: 25px;
+  }
+  
+  .log {
+    font-family: 'Courier New';
+    color: gray;
+  }
